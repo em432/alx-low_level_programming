@@ -6,8 +6,7 @@
  */
 int main(void)
 
-{
-int main(void)
+
 
 {
 int first_nums;
