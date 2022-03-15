@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
+ * add -prints add two numbers
+ *@i: print int i
+ *@k: print int k
  * Return: Always 0.
  */
 
