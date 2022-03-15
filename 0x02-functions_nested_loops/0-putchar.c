@@ -1,10 +1,10 @@
-#include "main.h"
+v#include "main.h"
 
 
 /**
- * main - Prints _putchar
+ * main - Entry point
  *
- * Return: Always 0.
+ * Return: nothing, return void
  */
 
 int main(void)
