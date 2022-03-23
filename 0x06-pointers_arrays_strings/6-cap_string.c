@@ -31,6 +31,7 @@ default:
 return (0);
 }
 
+
 }
 /**
  * cap_string - capitalizes all words of a string
@@ -40,12 +41,13 @@ return (0);
 char *cap_string(char *s)
 {
 int count, upper;
+
 upper = -32;
 
 count = 0;
 
 while (s[count] != '\0')
-
+{
 if (s[count] >= 'a' && s[count] <= 'z')
 {
 
