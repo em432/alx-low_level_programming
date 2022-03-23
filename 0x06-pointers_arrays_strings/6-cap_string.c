@@ -38,7 +38,7 @@ return (0);
  * @s: string to uppercase
  * Return: returns the modified string
  */
-char *cap_string(char *s)
+char *cap_string(char *)
 {
 int count, upper;
 
@@ -51,11 +51,12 @@ while (s[count] != '\0')
 if (s[count] >= 'a' && s[count] <= 'z')
 {
 
-if (s[count] == *s || separator(s[count - 1]))
+
+if (s[count] == * || separator(s[count - 1]))
 
 s[count] += upper;
 }
 count++;
 }
-return (s);
+return (*);
 }
