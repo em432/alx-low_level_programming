@@ -18,7 +18,8 @@ size = _strlen_recursion(r);
 
 add = (size % 2 != 0) ? 2 : 1;
 
-return (is_palindrome(r, i, size - 1, add));
+return (evaluate(r, i, size - 1, add));
+
 }
 
 /**
