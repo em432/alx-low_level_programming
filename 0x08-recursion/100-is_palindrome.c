@@ -18,7 +18,7 @@ size = _strlen_recursion(r);
 
 add = (size % 2 != 0) ? 2 : 1;
 
-return (evaluate(r, i, size - 1, add));
+return (r, i, size - 1, add);
 
 }
 
