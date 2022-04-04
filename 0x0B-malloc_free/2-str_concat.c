@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  *_strlen - count array
  *@s: array of elements
